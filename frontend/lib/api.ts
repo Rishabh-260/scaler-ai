@@ -1,4 +1,4 @@
-export const API = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api";
+export const API = "/api";
 
 export type MeetingCard = {
   id: string;
